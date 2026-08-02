@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.4.0 - 2026-08-02
+
+- Required `研究過程與方法` to be generated directly from `研究目的`.
+- Required each research purpose to produce 2-3 child experiments when scientifically feasible.
+- Required every child experiment to include variables, groups, time, detailed procedure, record table, chart suggestions, error controls, and safety notes.
+- Expanded material/tool/equipment acquisition guidance with detailed sources, search keywords, specifications, substitutions, calibration, storage, and disposal.
+- Expanded safety/risk-control guidance with hazards, severity, prevention, PPE, adult-only steps, emergency response, waste handling, and safer substitutions.
+- Required reference lists to include domestic and international sources when possible, with accessible links or verified bibliographic details.
+
 ## 0.3.0 - 2026-08-02
 
 - Reworked `SKILL.md` into clean Traditional Chinese section names and instructions.

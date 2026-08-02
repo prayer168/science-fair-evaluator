@@ -1,7 +1,7 @@
 ---
 name: science-fair-evaluator
 description: Evaluate science fair potential from an uploaded file, dataset, article, video, observation, rough idea, or any source material. Use when Codex should assess scientific principles, research novelty, feasibility for elementary school students, safety, prior science fair overlap, award potential, and recommend suitable science fair topics, research questions, experiments, measurements, materials, analysis methods, risks, and final next steps.
-version: 0.3.0
+version: 0.4.0
 ---
 
 # Science Fair Evaluator
@@ -63,6 +63,38 @@ The report must follow `references/prework-report-template.md` and should imitat
 8. 材料、工具、設備的取得或製作方式
 9. 參考文獻
 
+## Research Purpose To Experiment Mapping Requirement
+
+The **研究過程與方法** section must be generated from the items listed under **研究目的**. For every research purpose, create 2-3 child experiments whenever scientifically feasible.
+
+Number experiments sequentially across the whole report:
+
+- `研究目的一` -> `實驗 1`, `實驗 2`, `實驗 3`
+- `研究目的二` -> `實驗 4`, `實驗 5`, `實驗 6`
+- and so on
+
+If a purpose only supports one valid experiment, explain why and add a small extension experiment such as a reliability check, calibration check, comparison condition, or pilot test. Do not invent unsafe, irrelevant, or redundant experiments just to fill the count.
+
+Every child experiment must include:
+
+- 實驗目的
+- 操縱變因、應變變因、控制變因
+- 對照組、實驗組
+- 實驗時間
+- 詳細實驗步驟
+- 實驗紀錄表格
+- 建議圖表
+- 可能誤差與控制方法
+- safety notes when applicable
+
+The report should make it easy to see that all experiments are justified by the research purposes, not appended as unrelated activities.
+
+## Detailed Acquisition And Safety Requirement
+
+The **材料、工具、設備的取得或製作方式** section must be detailed. Include likely purchase locations, online search terms, school sources, household substitutions, adult-only preparation, approximate specifications, storage, labeling, calibration, disposal, and low-cost alternatives.
+
+The **安全、倫理與風險控管** section must also be detailed. Include hazard source, possible accident, severity, prevention, required protective equipment, adult-only steps, emergency response, waste handling, and safer substitutions.
+
 ## Literature Review Requirement For Background And Motivation
 
 The **研究背景與動機** section must be 500-1000 Chinese characters unless the user requests a different length.
@@ -111,6 +143,8 @@ General expectations:
 - Include retrieval dates only when the source content is designed to change over time.
 
 For Chinese sources, keep the original Chinese title and organization name, but still follow APA ordering and punctuation as closely as possible.
+
+The reference list must include both domestic and international sources when possible. Provide accessible links whenever available. If a source has no public link, verify its bibliographic details from reliable catalog, publisher, DOI, official, or library records and state enough details for the user to find it.
 
 ## Output Style
 
