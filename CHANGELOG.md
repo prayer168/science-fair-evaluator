@@ -1,5 +1,17 @@
 # Changelog
 
+## 1.0.0 - 2026-08-02
+
+- Rebuilt the Skill around the inquiry chain: real problem → scientific mechanism → measurable method → experiment or prototype → data analysis → real-world validation.
+- Added four operating modes: rapid triage, full evaluation, complete prework report, and research evolution.
+- Added evidence intake, prior-work comparison, candidate generation, stage gates, scoring, research definition, experiment architecture, validation, logistics, and final quality review.
+- Added hard safety, testability, student-ownership, resource, data-quality, novelty, and completion gates.
+- Added the Research Evolution Engine for upgrading common, descriptive, repetitive, or technology-decorated topics.
+- Added a quality-validation checklist that verifies title–purpose–experiment–measurement–analysis alignment.
+- Removed the rigid requirement to manufacture 2–3 experiments for every purpose; experiment count must now be scientifically justified.
+- Strengthened citation integrity, uncertainty labeling, calibrated novelty claims, and anti-fabrication requirements.
+- Clarified appropriate use of AI, Python, Arduino, ESP32, sensors, computer vision, and IoT as measurement tools rather than novelty decorations.
+
 ## 0.6.0 - 2026-08-02
 
 - Required the final bibliography heading to be `參考文獻`.
@@ -12,31 +24,20 @@
 - Required domestic and international searches for similar experiments before choosing the formal title.
 - Required a comparison of prior work, novelty, feasibility, safety, data quality, and award potential.
 - Required the skill to recommend one best topic and develop the report around that topic only.
-- Clarified that every child experiment in `研究過程與方法` must include detailed numbered procedures, record-table fields, chart suggestions, and error controls, not only summary tables.
+- Clarified that every child experiment must include detailed procedures and record tables.
 
 ## 0.4.0 - 2026-08-02
 
-- Required `研究過程與方法` to be generated directly from `研究目的`.
-- Required each research purpose to produce 2-3 child experiments when scientifically feasible.
-- Required every child experiment to include variables, groups, time, detailed procedure, record table, chart suggestions, error controls, and safety notes.
-- Expanded material/tool/equipment acquisition guidance with detailed sources, search keywords, specifications, substitutions, calibration, storage, and disposal.
-- Expanded safety/risk-control guidance with hazards, severity, prevention, PPE, adult-only steps, emergency response, waste handling, and safer substitutions.
-- Required reference lists to include domestic and international sources when possible, with accessible links or verified bibliographic details.
+- Required research methods to map to research purposes.
+- Expanded acquisition, safety, risk-control, and reference guidance.
 
 ## 0.3.0 - 2026-08-02
 
-- Reworked `SKILL.md` into clean Traditional Chinese section names and instructions.
-- Required the final prework report to imitate Taiwan science fair project-report format.
-- Required `研究背景與動機` to be 500-1000 Chinese characters and based on literature review with author-year in-text citations.
-- Required APA 7th edition style references.
-- Expanded the prework report template with sections for reference titles, research purpose, research structure, experiments, data analysis, material/tool acquisition, and APA references.
+- Added Taiwan science fair report conventions, literature-based motivation, and APA references.
 
 ## 0.2.0 - 2026-08-02
 
-- Added a required final deliverable: `國小科學展覽前置作業報告書`.
-- Added `references/prework-report-template.md` with the complete report structure.
-- Added `VERSION` for local version tracking.
-- Updated `SKILL.md` metadata to `version: 0.2.0`.
+- Added the complete prework-report template and local version tracking.
 
 ## 0.1.0 - 2026-08-02
 
