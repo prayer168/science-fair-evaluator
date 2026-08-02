@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.6.0 - 2026-08-02
+
+- Required the final bibliography heading to be `參考文獻`.
+- Prohibited using `參考來源`, `參考資料`, `來源`, or plain link lists as the final reference section.
+- Clarified that every reference entry must be formatted in APA style, with links included inside the APA entry when available.
+
 ## 0.5.0 - 2026-08-02
 
 - Added a required topic-formulation phase before report writing.

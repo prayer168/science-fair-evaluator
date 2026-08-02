@@ -1,7 +1,7 @@
 ---
 name: science-fair-evaluator
 description: Evaluate science fair potential from an uploaded file, dataset, article, video, observation, rough idea, or any source material. Use when Codex should assess scientific principles, research novelty, feasibility for elementary school students, safety, prior science fair overlap, award potential, and recommend suitable science fair topics, research questions, experiments, measurements, materials, analysis methods, risks, and final next steps.
-version: 0.5.0
+version: 0.6.0
 ---
 
 # Science Fair Evaluator
@@ -160,6 +160,8 @@ Use the official science fair format as guidance: science fair project descripti
 
 Use APA 7th edition style by default for references.
 
+The final reference section title must be **參考文獻**. Do not use `參考來源`, `參考資料`, `來源`, or a plain link list as the final heading. If the report uses numbered Chinese sections, use a heading such as `拾肆、參考文獻`.
+
 General expectations:
 
 - Journal article: `Author, A. A., & Author, B. B. (Year). Title of article. *Title of Journal, volume*(issue), page-page. https://doi.org/...`
@@ -171,6 +173,8 @@ General expectations:
 For Chinese sources, keep the original Chinese title and organization name, but still follow APA ordering and punctuation as closely as possible.
 
 The reference list must include both domestic and international sources when possible. Provide accessible links whenever available. If a source has no public link, verify its bibliographic details from reliable catalog, publisher, DOI, official, or library records and state enough details for the user to find it.
+
+Every item under **參考文獻** must be formatted as an APA-style bibliography entry, not as a bullet that only names the source or URL. Links may appear inside the APA entry.
 
 ## Output Style
 

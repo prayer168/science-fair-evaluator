@@ -274,6 +274,7 @@ Use APA 7th edition style.
 
 Rules:
 
+- The heading must be `參考文獻`, not `參考來源`, `參考資料`, or `來源`.
 - Include every source cited in the report.
 - Include both domestic and international sources when possible.
 - Use author-year in-text citations in the background section.
@@ -284,6 +285,7 @@ Rules:
 - For books, include authors, year, italicized title, and publisher.
 - For Chinese sources, keep Chinese names and titles.
 - Add retrieval date only when content changes over time.
+- Do not output a simple list of links. Each source must be converted into an APA-style reference entry.
 
 ### 拾伍、下一步行動
 
