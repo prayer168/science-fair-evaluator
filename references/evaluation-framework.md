@@ -2,148 +2,182 @@
 
 ## Evaluation Stance
 
-Treat every source as a possible seed, not a ready-made topic. Convert it into a researchable question by identifying:
+Treat each input as a possible research seed. A strong elementary-school project should establish this chain:
 
-- observable phenomenon
-- suspected mechanism
-- independent variable
-- dependent variable
-- control condition
-- repeatable measurement
-- safe student action
-- possible original contribution
+`真實問題 → 科學機制 → 操縱變因 → 可量測結果 → 公平比較 → 重複證據 → 分析與限制 → 情境驗證`
 
-Prefer "small but rigorous" over "large but vague." For elementary science fairs, a narrow topic with careful measurements and iteration is usually stronger than a broad topic with impressive vocabulary.
+Prefer narrow, rigorous, student-owned work over broad topics, fashionable technology, or impressive vocabulary.
 
-## Recommended Topic Selection Heuristics
+## Hard Gates
 
-Strong topics usually have at least four of these traits:
+Evaluate gates before weighted scoring.
 
-- one clear manipulated variable
-- one or two measurable outcomes
-- a low-cost way to repeat trials
-- a local or student-life context
-- room for design improvement or model building
-- clear comparison with existing methods or explanations
-- visible graphs or images that show evidence
-- safe procedure with common materials
+### 1. Safety and Ethics
 
-Weak topics often show these warning signs:
+Fail or redesign projects involving unacceptable chemical, biological, electrical, thermal, pressure, privacy, animal-welfare, environmental, or medical risk.
 
-- only asking for internet research with no experiment
-- demonstrating a known result without a new variable
-- relying on expensive sensors or black-box apps
-- using sample sizes too small to compare
-- involving unsafe chemicals, pathogens, animals, human medical claims, or private personal data
-- requiring adult operation for most meaningful steps
-- making environmental or health claims that cannot be measured
+### 2. Testability
 
-## Novelty Types
+The topic must include:
 
-Use these categories to avoid overclaiming originality:
+- a precise question;
+- at least one comparison, intervention, or condition;
+- an operationally defined outcome;
+- a repeatable method.
 
-- **Concept novelty**: The core question is unusual or underexplored.
-- **Variable novelty**: The manipulated factor is new, local, or better controlled.
-- **Method novelty**: The measurement or procedure improves on common student projects.
-- **Context novelty**: The idea applies known science to a local school, community, or environment.
-- **Analysis novelty**: The project uses clearer modeling, normalization, uncertainty analysis, or visualization.
-- **Design novelty**: The student iterates a device, method, or intervention based on evidence.
+A demonstration, literature review, simple construction, or opinion survey alone does not pass.
 
-If the core idea is common, recommend upgrading through variable choice, measurement precision, repeat design, or local context rather than pretending the idea is new.
+### 3. Student Ownership
 
-## Elementary Appropriateness
+Students should be able to:
 
-Assess whether students can:
+- explain the mechanism;
+- make meaningful design decisions;
+- operate the central procedure;
+- collect and graph data;
+- identify error and revise the method.
 
-- explain the core principle in their own words
-- collect data personally and safely
-- repeat trials without special professional equipment
-- understand tables and graphs needed for interpretation
-- make decisions from results and revise the procedure
-- describe limitations honestly
+### 4. Resource Feasibility
 
-Projects can include adult support, but the intellectual ownership should remain visible in the student's questions, choices, measurements, and revisions.
+Check:
 
-## Safety And Ethics Checklist
+- schedule;
+- budget;
+- material supply;
+- seasonality;
+- sample quantity;
+- equipment access;
+- adult-support burden.
 
-Flag or redesign projects involving:
+### 5. Data Quality
 
-- fire, high heat, pressure, sharp tools, electricity beyond safe low-voltage kits
-- corrosive, toxic, flammable, or unidentified chemicals
-- bacteria, mold, bodily fluids, allergens, pesticides, or medicines
-- vertebrate animals, ecological release, or harm to organisms
-- human subjects, health interventions, biometric data, photos, names, or private records
-- outdoor sampling that may damage habitats or violate rules
+The design must realistically support:
 
-Prefer substitutions such as simulations, sealed samples, food-safe materials, low-voltage sensors, public aggregate data, anonymous observations, or teacher-handled preparation.
+- calibration or a baseline;
+- repeated trials;
+- adequate sample size;
+- units and measurement resolution;
+- error controls;
+- raw-data preservation.
 
-## Award Potential Signals
+### 6. Defensible Novelty
 
-Estimate award potential by looking for:
+Novelty may come from mechanism, variable, method, context, measurement, analysis, prototype design, or validation. A trendy technology label is not novelty.
 
-- clear question and strong experimental control
-- repeated measurements and credible error handling
-- student-driven iteration
-- a concrete research gap
-- comparison with prior science fair or research work
-- useful local relevance
-- honest limitations and future work
-- polished visual evidence and explanation
+### 7. Completion
 
-Avoid ranking a project highly only because the topic sounds trendy. Judges usually reward good inquiry more than fashionable nouns.
+The project must be finishable with enough time for pilot testing, formal trials, redesign, analysis, and presentation.
 
-## Topic Upgrade Patterns
+A failed safety, testability, or student-ownership gate disqualifies a candidate from primary recommendation.
 
-Use these patterns to upgrade a weak or ordinary idea:
+## Prior-Work Search
 
-- Add a controlled comparison group.
-- Replace subjective observation with quantitative measurement.
-- Normalize data by time, area, mass, distance, light intensity, temperature, or starting condition.
-- Add repeated trials and report variation.
-- Compare multiple mechanisms, not just multiple brands.
-- Build a simple model that predicts results, then test the prediction.
-- Use local conditions: schoolyard, classroom, home routines, nearby water/soil/weather, or community behavior.
-- Turn "which is best" into "under what conditions does X work best."
-- Include an iteration cycle: prototype 1, evidence, redesign, prototype 2.
+Search before finalizing the topic. Use a balanced mix of:
 
-## Suggested Output Structure
+- Taiwan science fair records and PDFs;
+- peer-reviewed papers;
+- government, university, museum, and recognized educational sources;
+- technical or engineering sources;
+- international classroom demonstrations and student projects.
 
-For a complete response, use this structure:
+Record:
 
-1. Input summary and redefined topic direction
-2. Short recommendation
-3. Scientific principles
-4. Research and prior-project scan
-5. Novelty/repetition judgment
-6. Research gap
-7. Feasibility, safety, ethics, and equipment
-8. Scoring table
-9. Ranked topic options
-10. Recommended title, questions, purposes
-11. Experiment design
-12. Measurement and data analysis plan
-13. Materials and tools
-14. Risks and backups
-15. Final next steps
+| Source | Year | Tested question/variables | Method and measurement | Main finding | Overlap | Remaining gap | Source quality |
+|---|---:|---|---|---|---|---|---|
+
+Use calibrated novelty language. Prefer “未找到高度相同的公開研究” over absolute claims such as “從未有人做過”.
 
 ## Scoring Rubric
 
-Use 1-5 scores:
+Use 1–5 scores:
 
-- 5: strong with minor refinements
-- 4: promising with fixable gaps
-- 3: usable but ordinary or needs redesign
-- 2: weak unless substantially changed
-- 1: unsuitable, unsafe, unmeasurable, or not a science fair investigation
+- **5**: strong; only minor refinement needed;
+- **4**: promising; gaps are fixable;
+- **3**: usable but ordinary or incomplete;
+- **2**: weak without substantial redesign;
+- **1**: unsuitable, unsafe, unmeasurable, or not an investigation.
 
-Score dimensions:
+Score these dimensions:
 
-- 可研究性: Can it become a controlled, answerable investigation?
-- 創新性: Does it add a defensible new angle?
-- 國小可行性: Can elementary students meaningfully perform and explain it?
-- 資料可量測性: Are outcomes measurable with reliable enough tools?
-- 安全與倫理: Are risks acceptable with realistic controls?
-- 成本與設備可及性: Are materials accessible and affordable?
-- 科展競爭力: Would it stand out through rigor, originality, and communication?
+| Dimension | Main question |
+|---|---|
+| 可研究性 | Can it become a clear, controlled, answerable investigation? |
+| 科學機制深度 | Does the project investigate why, not only what? |
+| 新穎性 | Is there a defensible contribution? |
+| 國小適切性 | Can students understand and perform the core work? |
+| 學生主體性 | Are student decisions and revisions visible? |
+| 資料可量測性 | Are outcomes measurable with sufficient reliability? |
+| 實驗控制品質 | Are comparisons, controls, repeats, and calibration credible? |
+| 安全與倫理 | Are risks acceptable and responsibly managed? |
+| 成本與材料可得性 | Can the work be completed with realistic resources? |
+| 真實情境價值 | Does the work address a meaningful context or validation need? |
+| 展示與科展競爭力 | Can the evidence be communicated clearly and distinctively? |
 
-Always pair scores with specific improvement advice.
+Always explain low scores with concrete redesign advice.
+
+## Weighted Decision Support
+
+Default weights may be used when comparison is helpful:
+
+- 可研究性 12%
+- 科學機制深度 10%
+- 新穎性 12%
+- 國小適切性 10%
+- 學生主體性 10%
+- 資料可量測性 12%
+- 實驗控制品質 12%
+- 安全與倫理 10%
+- 成本與材料可得性 5%
+- 真實情境價值 4%
+- 展示與科展競爭力 3%
+
+Weights are adjustable to the user's context. Do not let the weighted total override a failed hard gate.
+
+## Topic Upgrade Patterns
+
+When a topic is weak, apply `research-evolution-engine.md`.
+
+Common upgrades:
+
+- replace subjective observation with measurement;
+- compare mechanisms rather than brands;
+- normalize by time, mass, area, distance, temperature, light, or starting condition;
+- add calibration, control groups, and repeated trials;
+- turn “which is best” into “under what conditions and why”;
+- build and iteratively improve a prototype;
+- create a simple prediction and test it with new data;
+- validate under local or real-world conditions;
+- use sensors, AI, Python, or IoT only when they improve evidence quality.
+
+## Recommended Evaluation Output
+
+1. Input and evidence summary
+2. Go / conditional go / no-go verdict
+3. Scientific mechanism
+4. Prior-work comparison
+5. Repetition and novelty judgment
+6. Research gap
+7. Hard-gate results
+8. Scoring table
+9. Candidate comparison
+10. One primary topic and optional fallback
+11. Research question, prediction, and purposes
+12. Experiment architecture
+13. Measurement and analysis plan
+14. Materials, budget, schedule, risks, and backups
+15. Research Evolution record when redesign was needed
+16. Next three actions
+
+## Award-Potential Signals
+
+Positive signals include:
+
+- a clear question and strong control;
+- repeated, calibrated measurement;
+- student-driven iteration;
+- a defensible research gap;
+- real-world or local validation;
+- transparent error and limitation analysis;
+- visual evidence that directly answers the question.
+
+Do not estimate award potential from trendiness. Use calibrated wording and state that execution quality and student understanding remain decisive.
