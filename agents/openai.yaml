@@ -1,4 +1,4 @@
 interface:
   display_name: "Science Fair Evaluator"
-  short_description: "評估素材並推薦可行、有創新性的國小科展題目。"
-  default_prompt: "Use $science-fair-evaluator to evaluate this file or idea and recommend science fair topics."
+  short_description: "自動評估題材、提供候選題目並建立完整科展前置作品書。"
+  default_prompt: "Use $science-fair-evaluator to evaluate this topic or file, compare prior work, and offer selectable science fair directions."

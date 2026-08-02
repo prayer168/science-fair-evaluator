@@ -1,4 +1,4 @@
-# 國小科學展覽前置作業報告書模板
+# 國小科學展覽前置作業作品書模板（不含討論與結論）
 
 Use this template after evaluation and topic selection. Write in Traditional Chinese by default. The report is a research plan, so never present expected outcomes as completed findings.
 
@@ -204,18 +204,17 @@ Provide:
 
 Address chemicals, heat, fire, electricity, pressure, sharp tools, biological materials, allergies, privacy, human participation, animal welfare, habitat disturbance, and waste when relevant.
 
-## 拾壹、預期結果與討論方向
+## 拾壹、預期結果與判讀規則
 
-Describe:
+Describe only the pre-defined decision rules:
 
 - expected pattern;
-- plausible alternative patterns;
-- scientific interpretation of each pattern;
+- plausible alternative patterns and their possible explanations;
 - confounding factors;
 - limitations;
 - follow-up experiment.
 
-Do not fabricate numerical results.
+Do not write a Discussion or Conclusion section. Do not fabricate numerical results.
 
 ## 拾貳、可行性、預算與時程
 
