@@ -1,5 +1,13 @@
 # Changelog
 
+## 1.2.0 - 2026-08-02
+
+- Replaced the four-mode workflow with a mandatory two-phase workflow: automatic evaluation and candidate selection, followed by a complete prework book after selection.
+- Required every new seed to trigger domestic and international prior-work search, novelty and feasibility assessment, and 3–5 distinct candidate directions.
+- Added a reusable candidate-selection template with hard-gate status, scores, risks, resources, and selection handoff.
+- Updated the prework template so that the completed work excludes Discussion and Conclusion sections.
+- Updated the UI prompt and skill description to reflect the selection-first workflow.
+
 ## 1.1.0 - 2026-08-02
 
 - Rewrote `README.md` as a complete guide to the Skill's purpose, audience, inputs, features, operating modes, installation, updating, invocation, prompt examples, file structure, maintenance, and versioning.

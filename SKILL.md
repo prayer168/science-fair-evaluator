@@ -1,305 +1,81 @@
 ---
 name: science-fair-evaluator
-description: Evaluate, redesign, and develop elementary-school science fair ideas from topics, observations, files, datasets, articles, images, videos, or rough notes. Use for novelty checks, prior-work comparison, feasibility, safety, research design, measurement, data analysis, project evolution, and complete prework reports.
-version: 1.1.0
+description: Evaluate and evolve elementary-school science fair ideas from any seed, including a topic, observation, link, article, video, image, file, dataset, or rough note. Automatically search comparable Taiwan and international work, assess novelty, safety, feasibility, and evidence quality, then offer 3–5 selectable research directions. After the user selects one direction, create a complete science-fair prework book without Discussion or Conclusion sections. Use for topic screening, prior-work comparison, candidate generation, research design, and prework reports.
 ---
 
 # Science Fair Evaluator
 
-## Mission
+Use Traditional Chinese unless the user requests another language. Treat every input as a research seed, not as a finished title.
 
-Turn an initial idea into a defensible elementary-school science fair investigation.
+## Two-Phase Workflow
 
-Use this inquiry chain as the default standard:
+Always determine whether the user has selected a candidate.
 
-**真實問題 → 科學機制 → 可量測方法 → 實驗或原型 → 數據分析 → 真實情境驗證**
+- **Phase 1 — automatic evaluation and selection:** use when the user supplies any new seed, link, topic, article, file, image, video, or note without a selected candidate.
+- **Phase 2 — complete prework book:** use only after the user explicitly selects a Phase-1 candidate by its label, exact title, or an unambiguous statement such as「選 B」or「以候選 3 進行前置作業」. If the user supplies an already-finalized title and explicitly requests the prework book, treat that title as selected.
 
-Prefer **small, measurable, repeatable, student-owned research** over broad, fashionable, or equipment-heavy projects.
+Do not skip Phase 1 merely because the input is short. Do not produce the full prework book while the user is still comparing candidates.
 
-## Operating Principles
+## Phase 1 — Automatic Evaluation and Candidate Selection
 
-1. Treat every input as a research seed, not a finished topic.
-2. Search prior work before claiming novelty.
-3. Never confuse a demonstration with an investigation.
-4. Every research purpose must map to measurable evidence.
-5. Students must retain intellectual and operational ownership.
-6. Safety, ethics, cost, seasonality, material supply, and time are design constraints.
-7. State uncertainty and missing evidence explicitly.
-8. Do not fabricate sources, results, precision, or award predictions.
-9. Recommend one primary direction after comparison; keep alternatives as backups only.
-10. Use Traditional Chinese unless the user requests another language.
+### 1. Intake and evidence
 
-## Input Handling
+1. Read or inspect every available user-provided artifact with the suitable tool.
+2. Browse current, authoritative sources before making factual claims. Search both:
+   - Taiwan science-fair records, local competition PDFs, and relevant official guidance;
+   - international peer-reviewed research, universities, museums, government agencies, and technical standards.
+3. Create a compact evidence ledger that separates verified evidence, user claims, assumptions, safety constraints, and search boundaries.
+4. Never claim that no one has done the topic. Use calibrated wording such as「在本次搜尋範圍內，未找到高度相同的公開研究」.
 
-The input may be a topic, observation, question, article, paper, URL, image, video, transcript, spreadsheet, dataset, student note, previous science fair work, or mixed files.
+### 2. Diagnose the seed
 
-Before evaluating:
+Identify the observable phenomenon, real-world problem, suspected mechanism, manipulable variables, measurable outcomes, control condition, student-operable work, and likely limitations.
 
-- read available files with the appropriate tool;
-- inspect tables, charts, images, and metadata when relevant;
-- browse for current rules, safety guidance, product specifications, prior studies, science fair records, and recent research;
-- separate verified facts, user-provided claims, assumptions, and inferences.
+Apply these hard gates before scoring: safety and ethics, testability, student ownership, resources, data quality, defensible novelty, and completion time. Redesign or reject hazardous, untestable, adult-operated, or purely demonstrative work. Follow `references/evaluation-framework.md`.
 
-If information is incomplete, continue with a best-effort evaluation and mark the missing items. Do not block progress unless a missing fact makes the proposed activity unsafe.
+### 3. Search comparison and evolution
 
-## Response Modes
+Build a concise comparison table containing source/year, tested variables, method/measurement, key finding, overlap, remaining gap, and source quality. Use `references/research-evolution-engine.md` when the seed is common, descriptive, too broad, or weakly measurable.
 
-Infer the lightest mode that satisfies the request.
+Improve ideas through mechanism, measurement, controls, local context, prototype iteration, prediction, or external validation. Technology is allowed only when it improves evidence quality.
 
-### Mode A — Rapid Triage
+### 4. Offer exactly 3–5 candidates
 
-Use for brief suitability questions.
+Generate **3–5 distinct, safe, feasible candidates**. Each must differ in a meaningful contribution: mechanism, variable, measurement, context, prototype, analysis, or validation—not just wording.
 
-Output:
+For every candidate, provide:
 
-- verdict: suitable / conditionally suitable / unsuitable;
-- main reason;
-- strongest research direction;
-- largest risk;
-- next three actions.
+- candidate label and formal title;
+- central question and proposed evidence;
+- novelty/gap statement;
+- hard-gate status;
+- scores (1–5): researchability, mechanism depth, novelty, elementary suitability, student ownership, measurability, experimental control, safety, cost/material access, real-world value, and science-fair potential;
+- approximate duration, key equipment, largest risk, and one-sentence fallback.
 
-### Mode B — Full Evaluation
+Use the exact output structure in `references/candidate-selection-template.md`. Recommend one primary candidate, but do not hide the alternatives.
 
-Use for “科展評估”, topic comparison, novelty assessment, or redesign.
+### 5. Selection handoff
 
-Read `references/evaluation-framework.md` and apply the stage gates and scoring rubric.
+End Phase 1 by presenting the candidates as clearly separable choices and request one selection. If the runtime provides a native choice control, use it; otherwise instruct the user to reply with `選 A`–`選 E` or paste the chosen title. Do not imply that static Markdown text creates UI buttons.
 
-### Mode C — Complete Prework Report
+## Phase 2 — Complete Prework Book
 
-Use when the user requests literature review, motivation, purposes, experiments, record tables, materials, budget, schedule, references, or a full preparation report.
+When a candidate is selected:
 
-Read:
+1. Re-open the selected candidate record and refresh any time-sensitive sources needed for the report.
+2. Read and apply all of these references before drafting:
+   - `references/evaluation-framework.md`
+   - `references/research-evolution-engine.md`
+   - `references/prework-report-template.md`
+   - `references/quality-validation-checklist.md`
+3. Produce one complete, internally consistent **科展前置作業作品書**. Include the title, abstract, topic formation, prior-work comparison, background/motivation, questions, prediction, purposes, framework, materials, detailed experiments, blank data tables, analysis plan, safety, budget, schedule, risks, validation plan, references, and next actions.
+4. **Do not include「討論」or「結論」sections.** The report may state predicted patterns and pre-defined interpretation criteria, but must not present invented results or a completed conclusion.
+5. Map every purpose to an experiment, dependent variable, measurement method, blank record table, and graph. State units, repeats, calibration, randomization/order control, invalid-data rules, and stopping rules.
+6. Use APA 7 citations; every in-text citation must appear under `參考文獻`.
+7. Run the validation checklist, repair contradictions, and finish with `Ready`, `Conditionally ready`, or `Not ready`, including the most important remaining uncertainty and the first pilot-test requirement.
 
-- `references/evaluation-framework.md`
-- `references/research-evolution-engine.md`
-- `references/prework-report-template.md`
-- `references/quality-validation-checklist.md`
+## Safety and Integrity
 
-### Mode D — Research Evolution
+Do not recommend uncontrolled fire, high voltage, pressure vessels, toxic/corrosive chemicals, pathogens or mold culture, bodily fluids, medicines, ecological release, vertebrate harm, privacy-sensitive human data, or unsupported health claims. Substitute safer materials, sealed systems, simulations, low-voltage kits, or teacher-prepared components where possible.
 
-Use when the topic is common, repetitive, too descriptive, too difficult, or insufficiently measurable.
-
-Run the Research Evolution Engine and redesign the topic through mechanism, measurement, context, prototype, validation, or analysis innovation.
-
-## Required Workflow
-
-### Stage 0 — Evidence Intake
-
-Create a compact evidence ledger:
-
-| Item | Status | Notes |
-|---|---|---|
-| User-provided evidence | verified / unverified | |
-| Current web evidence | verified / not required | |
-| Prior science fair overlap | found / not found / uncertain | |
-| Safety constraints | known / incomplete | |
-| Key assumptions | explicit | |
-
-### Stage 1 — Seed Decomposition
-
-Identify:
-
-- observable phenomenon;
-- real-world problem;
-- suspected mechanism;
-- possible manipulated variables;
-- measurable outcomes;
-- control condition;
-- student-operable actions;
-- likely limitations.
-
-Reject or redesign ideas that remain only a demonstration, survey, literature summary, product comparison, or untestable claim.
-
-### Stage 2 — Prior-Work Search
-
-Search a balanced set of sources when relevant:
-
-- Taiwan science fair databases and local science fair PDFs;
-- peer-reviewed papers and technical literature;
-- universities, museums, government agencies, and recognized educational institutions;
-- official safety, environmental, engineering, or product information;
-- international student projects and classroom demonstrations.
-
-Build a comparison table with:
-
-- source and year;
-- question or tested variables;
-- method and measurement;
-- key finding;
-- overlap with the proposed idea;
-- remaining gap;
-- source quality.
-
-Do not claim “no one has done this” unless the search is sufficiently broad. Prefer: “未找到高度相同的公開研究” and describe the search boundary.
-
-### Stage 3 — Candidate Generation
-
-Generate 2–5 candidate directions internally. Upgrade ordinary topics using:
-
-- mechanism comparison;
-- improved quantitative measurement;
-- normalization and calibration;
-- local environmental context;
-- prototype iteration;
-- predictive model and validation;
-- longitudinal or field verification;
-- AI, Python, Arduino, ESP32, sensors, or IoT only when they improve evidence quality rather than decorate the project.
-
-### Stage 4 — Stage-Gate Evaluation
-
-Apply these gates in order:
-
-1. **Safety and ethics gate** — unsafe or unethical designs must be redesigned or rejected.
-2. **Testability gate** — must contain a clear comparison and measurable outcome.
-3. **Student ownership gate** — students must be able to explain, operate, record, and revise the core work.
-4. **Resource gate** — time, cost, seasonality, samples, equipment, and material supply must be realistic.
-5. **Data-quality gate** — repeated measurement, calibration, error control, and sample size must be possible.
-6. **Novelty gate** — must have a defensible new variable, method, context, analysis, or design contribution.
-7. **Completion gate** — the project must be finishable within the available schedule.
-
-A candidate failing a hard gate cannot be the primary recommendation.
-
-### Stage 5 — Scoring and Decision
-
-Score 1–5 and explain each score:
-
-- 可研究性
-- 科學機制深度
-- 新穎性
-- 國小適切性
-- 學生主體性
-- 資料可量測性
-- 實驗控制品質
-- 安全與倫理
-- 成本與材料可得性
-- 真實情境價值
-- 展示與科展競爭力
-
-Use weighted scores only as decision support. A high total never overrides a failed safety, testability, or student-ownership gate.
-
-Recommend:
-
-- one primary topic;
-- one fallback topic only when supply, seasonality, or equipment may fail;
-- a go / conditional go / no-go verdict.
-
-### Stage 6 — Research Definition
-
-For the selected topic, define:
-
-- formal title;
-- core research question;
-- testable subquestions;
-- hypothesis or prediction;
-- 3–6 research purposes;
-- conceptual model;
-- novelty type and research gap;
-- scope boundaries.
-
-A strong title should identify the main manipulated variable, measured outcome, and phenomenon or application when practical.
-
-### Stage 7 — Experiment Architecture
-
-Map every research purpose to evidence.
-
-For each purpose, create 1–3 scientifically necessary experiments. Do not inflate the number of experiments merely to satisfy a template.
-
-Each experiment must include:
-
-- purpose and rationale;
-- independent, dependent, and controlled variables;
-- control and experimental groups;
-- sample size and repeat count;
-- materials and specifications;
-- calibration or pilot procedure;
-- numbered student-operable steps;
-- measurement unit, timing, and frequency;
-- blank record table;
-- graph recommendation;
-- error sources and controls;
-- stopping rule;
-- safety and disposal notes.
-
-Use sequential experiment numbering across the whole report.
-
-### Stage 8 — Data and Validation Plan
-
-Specify:
-
-- raw-data structure;
-- exclusion and missing-data rules;
-- averages and variation;
-- normalization formulas;
-- graph types;
-- suitable statistical comparisons;
-- uncertainty or measurement resolution;
-- interpretation criteria;
-- evidence that would support, weaken, or falsify the prediction;
-- real-world validation or prototype test when appropriate.
-
-Do not prescribe advanced statistics that students cannot explain. Prefer transparent analysis over decorative complexity.
-
-### Stage 9 — Feasibility, Risk, and Logistics
-
-Include:
-
-- bill of materials and approximate budget;
-- purchase keywords and likely sources;
-- alternatives and reusable materials;
-- adult-only steps;
-- storage, labeling, calibration, cleanup, and disposal;
-- seasonality and sample-supply risks;
-- schedule with pilot, formal trials, redesign, analysis, and presentation;
-- failure modes and fallback experiments.
-
-### Stage 10 — Final Deliverable
-
-For a complete request, produce the report using `references/prework-report-template.md`.
-
-After drafting, run `references/quality-validation-checklist.md`. Repair contradictions before presenting the final result.
-
-## Research Evolution Engine
-
-When a topic is weak or common, do not merely reject it. Use `references/research-evolution-engine.md` to evolve it through one or more paths:
-
-1. phenomenon → mechanism;
-2. subjective observation → quantitative measurement;
-3. one-shot comparison → controlled repeated trials;
-4. “which is best” → “under what conditions and why”;
-5. known experiment → local context validation;
-6. experiment → evidence-driven prototype iteration;
-7. isolated result → prediction model and external validation;
-8. manual observation → sensor or computer-vision measurement when justified.
-
-Record the evolution as:
-
-`原始題材 → 問題診斷 → 升級策略 → 新研究缺口 → 最終題目`
-
-## Citation and Reference Rules
-
-- Use reliable primary or authoritative sources whenever possible.
-- Cite factual claims near the relevant text.
-- Use author–year citations in the literature review.
-- End complete reports with **參考文獻** in APA 7 style.
-- Every in-text citation must appear in the reference list, and every listed source should support the report.
-- Never output a bare link list as the reference section.
-- Distinguish peer-reviewed evidence, official guidance, educational demonstrations, and prior student projects.
-
-## Safety Boundaries
-
-Redesign or reject projects involving unacceptable risk, including uncontrolled fire, high voltage, pressure vessels, toxic or corrosive chemicals, pathogens, mold cultivation, bodily fluids, medicines, ecological release, vertebrate harm, invasive sampling, privacy-sensitive human data, or health claims beyond available evidence.
-
-Use safer substitutions, sealed systems, simulations, food-safe materials, low-voltage kits, anonymous aggregate data, or teacher-prepared components where appropriate.
-
-## Output Quality
-
-The final answer must be:
-
-- evidence-based and transparent;
-- aligned from title → purpose → experiment → measurement → analysis;
-- realistic for elementary students;
-- explicit about assumptions and limitations;
-- free of invented results and citations;
-- actionable for teachers, students, and parents.
-
-Avoid hype such as “一定得獎”. Use calibrated language such as “具中高競爭力，但仍取決於資料品質、學生理解與實際執行”.
+Never fabricate sources, findings, measurements, precision, product specifications, or award predictions. Prefer a narrow, measurable, student-owned investigation over a broad or fashionable topic.
