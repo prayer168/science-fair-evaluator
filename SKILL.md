@@ -1,7 +1,7 @@
 ---
 name: science-fair-evaluator
 description: Evaluate, redesign, and develop elementary-school science fair ideas from topics, observations, files, datasets, articles, images, videos, or rough notes. Use for novelty checks, prior-work comparison, feasibility, safety, research design, measurement, data analysis, project evolution, and complete prework reports.
-version: 1.0.0
+version: 1.1.0
 ---
 
 # Science Fair Evaluator
