@@ -1,303 +1,288 @@
-# 國小科學展覽前置作業報告書 Template
+# 國小科學展覽前置作業報告書模板
 
-Use this template after the science-fair evaluation is complete. The goal is to turn a promising idea into a structured pre-project report that resembles a formal science fair project description while still being practical enough to guide actual student work.
+Use this template after evaluation and topic selection. Write in Traditional Chinese by default. The report is a research plan, so never present expected outcomes as completed findings.
 
-Write in Traditional Chinese by default. Keep the writing clear enough for elementary students and parents, but rigorous enough for teachers and science fair judges.
+## 封面資訊
 
-## Format Basis
-
-Use Taiwan science fair project-report conventions as the model. Official and local formats commonly include:
-
-- 摘要
-- 壹、前言（含研究動機、研究目的、文獻回顧）
-- 貳、研究設備與器材
-- 參、研究過程與方法
-- 肆、研究結果
-- 伍、討論
-- 陸、結論
-- 柒、參考文獻資料
-
-For a **prework report**, there will not yet be real results, discussion, or conclusions. Replace those finished-project sections with expected data tables, planned analyses, possible interpretation, risk controls, and next actions.
-
-## Required Prework Report Structure
-
-### 封面資訊
-
-Include:
-
-- 科別（if known）
-- 組別（if known）
+- 科別
+- 組別
 - 作品名稱
 - 關鍵詞（最多三個）
 
-Avoid school name, author names, teacher names, and identifiable faces if the report might later become a competition document.
+Avoid identifying information when the document may later become a competition submission.
 
-### 摘要（300 字以內）
+## 摘要（300 字以內）
 
-Briefly state the phenomenon, question, method, expected data, and importance. Since this is a prework report, say "本研究擬..." rather than pretending results already exist.
+State:
 
-### 壹、參考題目
+- phenomenon or real-world problem;
+- core question;
+- proposed method;
+- expected data type;
+- intended contribution.
 
-Before writing this section, search domestic and international sources for similar experiments. Then include a short topic-formulation subsection.
+Use future-oriented language such as「本研究擬……」。
 
-Include:
+## 壹、題目形成與評估
 
-1. 相似研究搜尋與比較
-2. 候選題目創新性、可執行性與獲獎潛力評估
-3. 最推薦題目（一個）
-4. 題名選擇理由
-5. 關鍵詞
+### 一、原始題材
 
-Use a comparison table like:
+Summarize the user's starting point.
 
-| 類型 | 來源 | 已做內容 | 與本題重疊 | 可創新處 |
-|---|---|---|---|---|
-| 國內科展 |  |  |  |  |
-| 國外教學示範 |  |  |  |  |
-| 學術/技術文獻 |  |  |  |  |
+### 二、相似研究搜尋與比較
 
-Then score candidate titles:
+| 類型 | 來源與年份 | 已測試內容 | 方法與測量 | 主要發現 | 與本題重疊 | 尚可研究之處 |
+|---|---|---|---|---|---|---|
 
-| 候選題目 | 創新性 | 可執行性 | 安全性 | 數據品質 | 獲獎潛力 | 判斷 |
-|---|---:|---:|---:|---:|---:|---|
+### 三、Research Evolution Record
 
-After choosing the best title, do not continue developing weaker titles in the main report.
+`原始題材 → 問題診斷 → 升級策略 → 新研究缺口 → 最終題目`
 
-Legacy title fields may be included only when useful:
+### 四、候選題目比較
 
-1. 原題目
-2. 建議正式題名
-3. 進階版題名
-4. 題名選擇理由
-5. 關鍵詞
+Include hard-gate results and scores.
 
-The formal title should name the manipulated variable, measured outcome, and main phenomenon when possible.
+### 五、最推薦題目
 
-### 貳、研究背景與動機
+Choose one primary title and explain why. Include one fallback only when the primary topic has a meaningful supply, seasonality, weather, or equipment risk.
 
-This section is mandatory and must be **500-1000 Chinese characters** unless the user requests a different length.
+## 貳、研究背景與動機（500–1000 字）
 
-Before writing it, conduct a literature review. Integrate citations in author-year form throughout the section. The writing should resemble an academic introduction, not a casual motivation paragraph.
+Integrate:
 
-Required content:
+- daily-life or local context;
+- scientific mechanism;
+- authoritative and academic evidence;
+- prior science fair overlap;
+- research gap;
+- elementary-school feasibility and significance.
 
-- daily-life or local context
-- known scientific mechanism
-- prior research, official sources, educational references, or technical references
-- prior science fair overlap when relevant
-- the gap this student project will investigate
-- why the investigation is feasible for elementary students
+Use author–year citations throughout. Avoid unsourced phrases such as「許多研究顯示」。
 
-Citation examples:
+## 參、研究問題、假設與研究目的
 
-- `Evans（1960）指出...`
-- `Revie 與 Uhlig（2008）整理...`
-- `國立臺灣科學教育館（2024）說明...`
-- `研究顯示...（Jones & Greene, 2011）`
+### 一、核心研究問題
 
-Avoid unsourced claims such as "many studies show" unless a source is cited.
+Write one precise, testable question.
 
-### 參、研究目的
+### 二、子問題
 
-List 3-6 concise objectives. Each objective should correspond to a research question or experiment.
+List only questions that the planned experiments can answer.
 
-When the project has multiple experiments, group them under research purposes. Each research purpose should generate 2-3 child experiments whenever scientifically feasible:
+### 三、假設或預測
 
-- 研究目的一：...
-- 實驗 1：...
-- 實驗 2：...
-- 實驗 3：...
-- 研究目的二：...
-- 實驗 4：...
-- 實驗 5：...
-- 實驗 6：...
+State the predicted pattern and scientific reason. A descriptive project may use a prediction instead of a causal hypothesis.
 
-If only one experiment is valid for a purpose, explain why and add a small extension experiment such as a calibration, reliability, sensitivity, comparison, or pilot experiment.
-- 實驗二：...
+### 四、研究目的
 
-### 肆、研究架構
+List 3–6 concise purposes. Every purpose must map to evidence in the method section.
 
-Provide a clear structure showing how the project moves from question to evidence. Use a flow list, table, or Mermaid diagram when appropriate.
+## 肆、研究架構
 
-Include:
+Provide a flow list, table, or Mermaid diagram showing:
 
-- 核心問題
-- 操縱變因
-- 應變變因
-- 對照組
-- 實驗組
-- 預期資料
-- 分析方式
-- 判讀方式
+- real problem;
+- mechanism;
+- variables;
+- experiments;
+- measurement;
+- analysis;
+- prototype or field validation;
+- final judgment.
 
-### 伍、材料設備
+Also include this alignment table:
+
+| 研究目的 | 對應實驗 | 應變變因 | 測量方法 | 紀錄表 | 分析圖表 |
+|---|---|---|---|---|---|
+
+## 伍、材料、工具與設備
 
 Separate:
 
-- 必備材料
-- 測量工具
-- 安全用品
-- 可選加分器材
-- 低成本替代方案
+- must-have materials;
+- measurement tools;
+- safety equipment;
+- optional advanced tools;
+- low-cost substitutes.
 
-Mention estimated quantities, specifications, and units when possible.
+For each item, state quantity, specification, expected accuracy or resolution when relevant, source, and reuse potential.
 
-### 陸、研究過程與方法
+## 陸、研究過程與方法
 
-This is the core of the prework report. Generate this section directly from `參、研究目的`.
+Generate experiments directly from the research purposes. Use **1–3 scientifically necessary experiments per purpose**. Do not invent redundant experiments to reach a quota.
 
-For every research purpose, provide 2-3 child experiments when scientifically feasible. Number the child experiments sequentially across the full report, such as `實驗 1`, `實驗 2`, `實驗 3`.
+Number experiments sequentially across the report.
 
-For each experiment, include:
+### 每個實驗必備內容
 
-1. 實驗目的
-2. 實驗設計摘要
-3. 變因設計
-4. 材料與設備
-5. 詳細步驟
-6. 實驗紀錄表格
-7. 建議圖表
-8. 預期觀察重點
-9. 可能誤差與控制方法
-10. 安全注意事項
+1. 實驗名稱
+2. 對應研究目的
+3. 實驗目的與設計理由
+4. 操縱變因、應變變因、控制變因
+5. 對照組與實驗組
+6. 樣本數與重複次數
+7. 材料、規格與設備
+8. 前導試驗或校正方法
+9. 編號式詳細步驟
+10. 測量單位、時間、頻率與解析度
+11. 空白實驗紀錄表
+12. 建議圖表
+13. 排除、停止或重做條件
+14. 可能誤差與控制方法
+15. 安全、清理與廢棄方式
 
-Variable design table:
+### 變因表
 
 | 類型 | 內容 |
 |---|---|
-| 操縱變因 |  |
-| 應變變因 |  |
-| 控制變因 |  |
-| 對照組 |  |
-| 實驗組 |  |
-| 重複次數 |  |
-| 實驗時間 |  |
+| 操縱變因 | |
+| 應變變因 | |
+| 控制變因 | |
+| 對照組 | |
+| 實驗組 | |
+| 樣本數 | |
+| 重複次數 | |
+| 測量時間與頻率 | |
 
-Procedure rules:
+### 步驟規則
 
-- Write numbered, student-operable steps.
-- Do not stop at a variable summary table; every experiment needs detailed procedural steps.
-- Include a pilot test before formal trials when useful.
-- Include sample size and repeat count.
-- Include measurement timing and units.
-- Include safety notes inside the step where the risk occurs.
-- Include at least one blank record table for every experiment.
-- Include recommended chart types for every experiment, such as bar chart, line chart, scatter plot, box plot, photo panel, or heat map.
+- Steps must be student-operable.
+- State the exact point where measurements occur.
+- Label adult-only preparation.
+- Include calibration, blank, baseline, or pilot tests when needed.
+- Avoid changing multiple major variables at once unless the design explicitly studies interactions.
+- Preserve raw data and original photos.
 
-### 柒、資料分析
-
-Provide a practical analysis plan.
+## 柒、資料處理與分析
 
 Include:
 
-- data-cleaning rules
-- averages
-- variation or range
-- comparison formulas
-- charts
-- interpretation checks
-- what result would support or weaken each hypothesis
+- raw-data structure;
+- missing, invalid, and outlier rules;
+- averages and variation;
+- normalization formulas;
+- graph selection;
+- suitable statistical comparison;
+- uncertainty and measurement resolution;
+- criteria that support, weaken, or falsify the prediction;
+- alternative explanations.
 
-Use copyable formulas when helpful.
+Use methods students can explain. Advanced statistics are optional, not decorative requirements.
 
-Example:
+## 捌、原型設計或真實情境驗證
 
-```text
-保護率 =（對照組平均生鏽程度 - 實驗組平均生鏽程度）÷ 對照組平均生鏽程度 × 100%
-```
+Include this section when applicable.
 
-### 捌、材料、工具、設備的取得或製作方式
+Possible structures:
 
-Explain where materials can be obtained, how tools can be made, and how to lower cost. Make this section detailed enough that a teacher or parent can prepare the project without guessing.
+- prototype 1 → test → evidence → redesign → prototype 2;
+- artificial condition → natural condition comparison;
+- laboratory test → school or field validation;
+- model training data → unseen validation data;
+- low-cost instrument → reference instrument comparison.
+
+State success criteria before testing.
+
+## 玖、材料與設備取得、製作及校正
+
+Provide:
+
+- purchase locations or likely sources;
+- online search keywords;
+- school and household sources;
+- specifications and substitutes;
+- homemade construction method;
+- adult-only preparation;
+- calibration and setup;
+- labeling and storage;
+- maintenance, cleaning, and disposal.
+
+## 拾、安全、倫理與環境風險
+
+| 風險來源 | 可能事故或影響 | 嚴重度 | 預防方式 | 防護用品 | 成人專責 | 緊急處理 | 廢棄或復原方式 | 較安全替代方案 |
+|---|---|---:|---|---|---|---|---|---|
+
+Address chemicals, heat, fire, electricity, pressure, sharp tools, biological materials, allergies, privacy, human participation, animal welfare, habitat disturbance, and waste when relevant.
+
+## 拾壹、預期結果與討論方向
+
+Describe:
+
+- expected pattern;
+- plausible alternative patterns;
+- scientific interpretation of each pattern;
+- confounding factors;
+- limitations;
+- follow-up experiment.
+
+Do not fabricate numerical results.
+
+## 拾貳、可行性、預算與時程
+
+### 一、預算表
+
+| 項目 | 規格 | 數量 | 單價估計 | 小計 | 必要性 | 替代方案 |
+|---|---|---:|---:|---:|---|---|
+
+### 二、時程
 
 Include:
 
-- purchasing sources or likely places to obtain items
-- online search keywords
-- school or household sources
-- approximate specifications
-- homemade substitutes
-- teacher/adult-only preparation
-- calibration or setup method
-- labeling and storage method
-- storage and disposal notes
-- low-cost alternatives
+- literature and design;
+- material preparation;
+- pilot test;
+- formal trials;
+- redesign or replication;
+- data analysis;
+- report and presentation.
 
-### 玖、安全、倫理與風險控管
+### 三、依賴條件
 
-Identify hazards and mitigations. Redesign unsafe versions into safer alternatives. Mention adult-only steps when needed.
+Identify seasonality, weather, sample supply, equipment borrowing, permissions, and adult assistance.
 
-Include:
+## 拾參、失敗模式與備案
 
-- hazard source
-- possible accident
-- severity
-- prevention method
-- required protective equipment
-- adult-only steps
-- emergency response
-- chemical risks
-- heat/fire/electricity risks
-- sharp tools
-- biological or environmental risks
-- human-subject/privacy risks
-- waste disposal
-- safer substitutions
+| 失敗模式 | 早期警訊 | 可能原因 | 預防 | 修正方式 | 備用實驗或題目 |
+|---|---|---|---|---|---|
 
-### 拾、預期結果與討論方向
+## 拾肆、科展亮點與競爭力強化
 
-Describe likely result patterns and how to interpret different outcomes. Avoid claiming that the expected result has already happened.
+Explain how the project demonstrates:
 
-Include:
+- scientific mechanism;
+- reliable measurement;
+- fair controls;
+- student ownership;
+- iterative improvement;
+- local relevance;
+- honest limitations;
+- clear visual evidence.
 
-- expected pattern
-- possible alternative pattern
-- how each pattern would be explained
-- limitations
-- follow-up experiment ideas
+Use calibrated language. Do not promise awards.
 
-### 拾壹、可行性與時程規劃
+## 拾伍、參考文獻
 
-Assess cost, time, student operability, equipment availability, and support needs. Provide a week-by-week or day-by-day schedule.
-
-### 拾貳、失敗模式與備案
-
-List likely failure modes and practical fallback experiments or adjustments.
-
-### 拾參、科展亮點與加強方向
-
-Explain how to make the project stronger through better controls, quantification, local context, iteration, modeling, or presentation.
-
-### 拾肆、參考文獻
-
-Use APA 7th edition style.
+Use APA 7 style.
 
 Rules:
 
-- The heading must be `參考文獻`, not `參考來源`, `參考資料`, or `來源`.
-- Include every source cited in the report.
-- Include both domestic and international sources when possible.
-- Use author-year in-text citations in the background section.
-- Provide accessible links whenever available.
-- If a source has no public link, verify details from a reliable catalog, publisher, DOI, official, or library record.
-- For websites, provide organization/author, date or n.d., page title, site name, and URL.
-- For journal articles, include authors, year, article title, journal title, volume(issue), pages, and DOI when available.
-- For books, include authors, year, italicized title, and publisher.
-- For Chinese sources, keep Chinese names and titles.
-- Add retrieval date only when content changes over time.
-- Do not output a simple list of links. Each source must be converted into an APA-style reference entry.
+- heading must be `參考文獻`;
+- every in-text citation appears in the list;
+- every listed source supports the report;
+- include domestic and international evidence when available;
+- distinguish academic, official, technical, educational, and student-project sources;
+- include DOI or accessible URL when available;
+- do not output a bare link list;
+- do not fabricate incomplete bibliographic details.
 
-### 拾伍、下一步行動
+## 拾陸、下一步行動
 
-End with 3-5 ranked next actions. Make them concrete, such as buying materials, running a pilot test, choosing final concentrations, or setting up a photo box.
+End with 3–5 ranked, concrete actions.
 
-## Quality Rules
+## Final Validation
 
-- Keep the report aligned to the evaluation result; do not invent a different project.
-- Prefer "small but rigorous" over broad ambition.
-- Every research question should be answerable by the proposed experiment.
-- Every dependent variable should have a measurement method.
-- Every safety risk should have a mitigation or substitution.
-- Include tables where they make setup, variables, or data recording easier.
-- Label assumptions and values that should be adjusted after a pilot test.
-- Do not fabricate citations. If source details are incomplete, say so or use a reliable source that can be cited.
+Run `quality-validation-checklist.md` and add:
+
+- validation verdict: Ready / Conditionally ready / Not ready;
+- most important remaining uncertainty;
+- first item that must be verified through a pilot test.
