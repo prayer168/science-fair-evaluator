@@ -1,5 +1,13 @@
 # Changelog
 
+## 1.1.0 - 2026-08-02
+
+- Rewrote `README.md` as a complete guide to the Skill's purpose, audience, inputs, features, operating modes, installation, updating, invocation, prompt examples, file structure, maintenance, and versioning.
+- Added `version.md` as the detailed human-readable iteration history.
+- Completed an end-to-end workflow test covering topic search, prior-work comparison, stage gates, scoring, research evolution, experiment design, data analysis, prototype iteration, real-world validation, and quality review.
+- Confirmed that AI, Arduino, ESP32, Python, sensors, computer vision, and IoT are used only when they improve evidence quality.
+- Synchronized version references across `VERSION`, `SKILL.md`, `README.md`, `CHANGELOG.md`, and `version.md`.
+
 ## 1.0.0 - 2026-08-02
 
 - Rebuilt the Skill around the inquiry chain: real problem → scientific mechanism → measurable method → experiment or prototype → data analysis → real-world validation.
