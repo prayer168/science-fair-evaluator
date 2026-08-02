@@ -1,6 +1,7 @@
 ---
 name: science-fair-evaluator
 description: Evaluate science fair potential from an uploaded file, dataset, article, video, observation, rough idea, or any source material. Use when Codex should assess scientific principles, research novelty, feasibility for elementary school students, safety, prior science fair overlap, award potential, and recommend suitable science fair topics, research questions, experiments, measurements, materials, analysis methods, risks, and final next steps.
+version: 0.2.0
 ---
 
 # Science Fair Evaluator
@@ -15,6 +16,34 @@ Evaluate the user's provided material as a potential science fair seed. The inpu
 - what to avoid because it is too repetitive, unsafe, expensive, vague, or beyond elementary level
 
 If files are referenced but their contents are not available in the conversation, read or extract them with the appropriate file, document, spreadsheet, PDF, video transcript, image, or web tools before evaluating. If a claimed current fact, research status, regulation, safety issue, product specification, or recent competition record could have changed, verify it with reliable sources.
+
+## Required Final Deliverable
+
+After completing the evaluation flow, also produce a polished **國小科學展覽前置作業報告書** unless the user explicitly asks for only a brief evaluation. This report is not a loose summary; it should be a practical pre-project document that a teacher, parent, or student can use to start the science fair project.
+
+Use the report format in `references/prework-report-template.md`. Adapt headings to the actual project, but keep the same functional coverage:
+
+- research title options
+- research background and motivation
+- importance of the study
+- key terms
+- scientific principles
+- research questions
+- research objectives
+- hypotheses
+- variables and controls
+- materials and instruments
+- experimental design and procedures
+- measurement and record methods
+- suggested data tables
+- data analysis formulas and graph plans
+- expected results
+- safety, ethics, and risk controls
+- feasibility and schedule
+- fallback plans
+- final recommended next actions
+
+When the input is still vague, make reasonable assumptions and label them. When the report needs values such as concentrations, sample sizes, time span, or measurement units, provide conservative starting values that can be adjusted after a pilot test.
 
 ## Required Evaluation Flow
 
@@ -83,3 +112,5 @@ Explain low scores with specific fixes. Do not hide uncertainty; label assumptio
 ## References
 
 Read `references/evaluation-framework.md` when the user asks for a complete evaluation, topic recommendation, scoring, or project upgrade plan. Use it as the detailed rubric and output checklist.
+
+Read `references/prework-report-template.md` when the user asks to run the whole flow, produce a complete report, create a prework document, or generate material similar to a science fair preparation report.
