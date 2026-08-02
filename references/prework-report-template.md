@@ -38,7 +38,32 @@ Briefly state the phenomenon, question, method, expected data, and importance. S
 
 ### 壹、參考題目
 
+Before writing this section, search domestic and international sources for similar experiments. Then include a short topic-formulation subsection.
+
 Include:
+
+1. 相似研究搜尋與比較
+2. 候選題目創新性、可執行性與獲獎潛力評估
+3. 最推薦題目（一個）
+4. 題名選擇理由
+5. 關鍵詞
+
+Use a comparison table like:
+
+| 類型 | 來源 | 已做內容 | 與本題重疊 | 可創新處 |
+|---|---|---|---|---|
+| 國內科展 |  |  |  |  |
+| 國外教學示範 |  |  |  |  |
+| 學術/技術文獻 |  |  |  |  |
+
+Then score candidate titles:
+
+| 候選題目 | 創新性 | 可執行性 | 安全性 | 數據品質 | 獲獎潛力 | 判斷 |
+|---|---:|---:|---:|---:|---:|---|
+
+After choosing the best title, do not continue developing weaker titles in the main report.
+
+Legacy title fields may be included only when useful:
 
 1. 原題目
 2. 建議正式題名
@@ -151,6 +176,7 @@ Variable design table:
 Procedure rules:
 
 - Write numbered, student-operable steps.
+- Do not stop at a variable summary table; every experiment needs detailed procedural steps.
 - Include a pilot test before formal trials when useful.
 - Include sample size and repeat count.
 - Include measurement timing and units.

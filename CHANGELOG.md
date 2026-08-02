@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.5.0 - 2026-08-02
+
+- Added a required topic-formulation phase before report writing.
+- Required domestic and international searches for similar experiments before choosing the formal title.
+- Required a comparison of prior work, novelty, feasibility, safety, data quality, and award potential.
+- Required the skill to recommend one best topic and develop the report around that topic only.
+- Clarified that every child experiment in `研究過程與方法` must include detailed numbered procedures, record-table fields, chart suggestions, and error controls, not only summary tables.
+
 ## 0.4.0 - 2026-08-02
 
 - Required `研究過程與方法` to be generated directly from `研究目的`.

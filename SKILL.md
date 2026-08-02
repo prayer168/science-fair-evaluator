@@ -1,7 +1,7 @@
 ---
 name: science-fair-evaluator
 description: Evaluate science fair potential from an uploaded file, dataset, article, video, observation, rough idea, or any source material. Use when Codex should assess scientific principles, research novelty, feasibility for elementary school students, safety, prior science fair overlap, award potential, and recommend suitable science fair topics, research questions, experiments, measurements, materials, analysis methods, risks, and final next steps.
-version: 0.4.0
+version: 0.5.0
 ---
 
 # Science Fair Evaluator
@@ -25,27 +25,51 @@ If files are referenced but their contents are not available in the conversation
 Unless the user asks for a short answer, always run through these evaluation dimensions before producing the final report:
 
 1. **題材轉換**: Restate the source material and convert it into one or more investigable science fair directions.
-2. **初步建議**: Give an early go/no-go/conditional recommendation.
-3. **科學原理**: Identify relevant concepts, variables, mechanisms, and grade-appropriate explanations.
-4. **文獻與公開知識回顧**: Summarize relevant research, educational projects, and current knowledge. Browse when needed.
-5. **既有科展比較**: Compare against prior science fair projects and similar student studies where possible. Browse when needed.
-6. **新穎性判斷**: Judge whether the idea merely repeats known work or has a defensible new angle.
-7. **研究缺口**: Name the unanswered question or local/contextual gap the student can realistically investigate.
-8. **科展性評估**: Evaluate curiosity, testability, controls, iteration, evidence quality, and student agency.
-9. **新穎性類型**: Distinguish conceptual novelty, method novelty, local application novelty, measurement novelty, and presentation novelty.
-10. **學生適切性**: Check developmental fit, student-operable steps, math/data burden, and teacher/parent support needs.
-11. **安全與倫理**: Identify hazards, privacy/animal/human-subject concerns, costs, and substitutions.
-12. **競爭力估計**: Estimate competitiveness with reasons, not hype.
-13. **強化建議**: Suggest ways to make the project deeper, fairer, more quantitative, or more original.
-14. **題目建議**: Provide several polished Chinese topic titles.
-15. **研究問題**: Write precise, testable questions.
-16. **研究目的**: List concise research objectives.
-17. **變因與實驗設計**: Define independent variables, dependent variables, controls, sample size/repeats, and procedure outline.
-18. **測量方法**: Recommend concrete instruments, observation rubrics, units, frequency, calibration, and error control.
-19. **材料與替代方案**: Separate must-have, nice-to-have, and low-cost alternatives.
-20. **資料分析**: Propose tables, graphs, statistics, comparison methods, and interpretation checks.
-21. **失敗模式與備案**: Name failure modes and fallback experiments.
-22. **最終建議**: Give a ranked recommendation and the next 3 actions.
+2. **相似研究搜尋**: Search domestic and international websites, science fair databases, educational demonstrations, official/technical sources, and academic literature for similar experiments before finalizing the topic.
+3. **相似研究比較表**: Summarize what has already been done, including source, investigated variables, methods, findings, overlap with the proposed idea, and what remains untested.
+4. **創新性、可執行性與獲獎潛力評估**: Score and explain candidate topic directions for novelty, feasibility, safety, data quality, student agency, local relevance, and award potential.
+5. **最佳題目推薦**: Recommend one best topic only, with a short reason. Do not produce the full report around multiple competing topics.
+6. **初步建議**: Give an early go/no-go/conditional recommendation for the selected best topic.
+7. **科學原理**: Identify relevant concepts, variables, mechanisms, and grade-appropriate explanations.
+8. **文獻與公開知識回顧**: Summarize relevant research, educational projects, and current knowledge. Browse when needed.
+9. **既有科展比較**: Compare against prior science fair projects and similar student studies where possible. Browse when needed.
+10. **新穎性判斷**: Judge whether the idea merely repeats known work or has a defensible new angle.
+11. **研究缺口**: Name the unanswered question or local/contextual gap the student can realistically investigate.
+12. **科展性評估**: Evaluate curiosity, testability, controls, iteration, evidence quality, and student agency.
+13. **新穎性類型**: Distinguish conceptual novelty, method novelty, local application novelty, measurement novelty, and presentation novelty.
+14. **學生適切性**: Check developmental fit, student-operable steps, math/data burden, and teacher/parent support needs.
+15. **安全與倫理**: Identify hazards, privacy/animal/human-subject concerns, costs, and substitutions.
+16. **競爭力估計**: Estimate competitiveness with reasons, not hype.
+17. **強化建議**: Suggest ways to make the project deeper, fairer, more quantitative, or more original.
+18. **研究問題**: Write precise, testable questions.
+19. **研究目的**: List concise research objectives.
+20. **變因與實驗設計**: Define independent variables, dependent variables, controls, sample size/repeats, and procedure outline.
+21. **測量方法**: Recommend concrete instruments, observation rubrics, units, frequency, calibration, and error control.
+22. **材料與替代方案**: Separate must-have, nice-to-have, and low-cost alternatives.
+23. **資料分析**: Propose tables, graphs, statistics, comparison methods, and interpretation checks.
+24. **失敗模式與備案**: Name failure modes and fallback experiments.
+25. **最終建議**: Give a ranked recommendation and the next 3 actions.
+
+## Topic Formulation Requirement
+
+Before writing `參考題目` or choosing the formal title, search for similar domestic and international work. Use a mix of:
+
+- Taiwan science fair databases or local science fair PDFs
+- international classroom demonstrations or university demo pages
+- academic literature or technical articles
+- official or reputable safety/engineering sources
+
+Then provide a compact comparison showing:
+
+- what similar work already tested
+- how close it is to the user's idea
+- whether the idea is repetitive
+- what variable, method, context, measurement, or analysis can make it more original
+- feasibility for elementary students
+- safety constraints
+- likely science fair competitiveness
+
+Finally, recommend **one best topic** and use that topic consistently throughout the rest of the report.
 
 ## Required Final Deliverable
 
@@ -88,6 +112,8 @@ Every child experiment must include:
 - safety notes when applicable
 
 The report should make it easy to see that all experiments are justified by the research purposes, not appended as unrelated activities.
+
+Each child experiment must contain a full procedure, not only a summary table. A table may summarize variables and groups, but it must be followed by numbered operational steps, record-table fields, chart suggestions, and error-control notes.
 
 ## Detailed Acquisition And Safety Requirement
 
