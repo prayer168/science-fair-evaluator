@@ -1,5 +1,15 @@
 # Changelog
 
+## 1.3.0 - 2026-09-25
+
+- Added a mandatory novelty/overlap gate before candidate scoring and again before full prework drafting.
+- Added `references/novelty-overlap-gate.md` with Taiwan + international search requirements, O0–O4 overlap levels, N0–N3 novelty decisions, research-gap tests, calibrated novelty language, and do-not-repeat rules.
+- Required a prior-work matrix that synthesizes the union of what is already known rather than comparing sources in isolation.
+- Prohibited treating AI, Arduino/ESP32, sensors, dashboards, heatmaps, 3D printing, or extra repetitions as novelty by themselves.
+- Added explicit G0–G3 stage gates: prior-work/novelty, research alignment, apparatus/logistics, and pilot readiness.
+- Expanded the complete prework template with search boundaries, overlap matrix, do-not-repeat list, engineering trade-offs, robustness/stability testing, external validation, and an 18-field research architecture.
+- Strengthened the final quality checklist to reject or redesign high-overlap directions before formal experiments.
+
 ## 1.2.0 - 2026-08-02
 
 - Replaced the four-mode workflow with a mandatory two-phase workflow: automatic evaluation and candidate selection, followed by a complete prework book after selection.
