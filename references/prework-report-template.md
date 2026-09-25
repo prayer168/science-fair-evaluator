@@ -23,26 +23,49 @@ State:
 
 Use future-oriented language such as「本研究擬……」。
 
-## 壹、題目形成與評估
+## 壹、題目形成、撞題檢核與評估
 
 ### 一、原始題材
 
 Summarize the user's starting point.
 
-### 二、相似研究搜尋與比較
+### 二、檢索範圍與關鍵詞
 
-| 類型 | 來源與年份 | 已測試內容 | 方法與測量 | 主要發現 | 與本題重疊 | 尚可研究之處 |
-|---|---|---|---|---|---|---|
+List:
 
-### 三、Research Evolution Record
+- Taiwan science-fair databases and local records searched;
+- academic databases / journals / technical sources searched;
+- exact keywords, synonyms, mechanism terms, material terms, and application terms;
+- search date and important limits.
 
-`原始題材 → 問題診斷 → 升級策略 → 新研究缺口 → 最終題目`
+### 三、相似研究／研究缺口矩陣
 
-### 四、候選題目比較
+| 類型 | 來源與年份 | 題名 | 已測試變因 | 方法與測量 | 分析指標 | 原型／驗證 | 主要發現 | 與本題重疊 | 尚可研究之處 | 來源品質 |
+|---|---|---|---|---|---|---|---|---|---|---|
 
-Include hard-gate results and scores.
+Identify the strongest 3–8 comparable works and explicitly synthesize the **union of what is already known**.
 
-### 五、最推薦題目
+### 四、Overlap / Novelty Gate
+
+Report:
+
+- overlap level: O0–O4;
+- novelty gate: N0–N3;
+- defensible research-gap statement;
+- `do-not-repeat` list of saturated variables/methods;
+- exact contribution type.
+
+If O3 or O4, do not continue this version of the prework book. Redesign first.
+
+### 五、Research Evolution Record
+
+`原始題材 → 撞題發現 → 問題診斷 → 升級策略 → 新研究缺口 → 最終題目`
+
+### 六、候選題目比較
+
+Include hard-gate results, overlap level, novelty gate, and scores.
+
+### 七、最推薦題目
 
 Choose one primary title and explain why. Include one fallback only when the primary topic has a meaningful supply, seasonality, weather, or equipment risk.
 
@@ -63,7 +86,7 @@ Use author–year citations throughout. Avoid unsourced phrases such as「許多
 
 ### 一、核心研究問題
 
-Write one precise, testable question.
+Write one precise, testable question that is visibly different from the strongest prior work.
 
 ### 二、子問題
 
@@ -75,7 +98,7 @@ State the predicted pattern and scientific reason. A descriptive project may use
 
 ### 四、研究目的
 
-List 3–6 concise purposes. Every purpose must map to evidence in the method section.
+List 3–6 concise purposes. Every purpose must map to evidence in the method section and at least one purpose must embody the selected research gap.
 
 ## 肆、研究架構
 
@@ -83,6 +106,8 @@ Provide a flow list, table, or Mermaid diagram showing:
 
 - real problem;
 - mechanism;
+- prior-work boundary;
+- research gap;
 - variables;
 - experiments;
 - measurement;
@@ -92,8 +117,8 @@ Provide a flow list, table, or Mermaid diagram showing:
 
 Also include this alignment table:
 
-| 研究目的 | 對應實驗 | 應變變因 | 測量方法 | 紀錄表 | 分析圖表 |
-|---|---|---|---|---|---|
+| 研究目的 | 對應實驗 | 應變變因 | 測量方法 | 紀錄表 | 分析圖表 | 與既有研究差異 |
+|---|---|---|---|---|---|---|
 
 ## 伍、材料、工具與設備
 
@@ -130,19 +155,34 @@ Number experiments sequentially across the report.
 13. 排除、停止或重做條件
 14. 可能誤差與控制方法
 15. 安全、清理與廢棄方式
+16. 與最相似既有研究的差異
+17. 本實驗對研究缺口的貢獻
+18. 成功／失敗判定標準
 
-### 變因表
+### 18 欄位研究架構總表
 
-| 類型 | 內容 |
-|---|---|
-| 操縱變因 | |
-| 應變變因 | |
-| 控制變因 | |
-| 對照組 | |
-| 實驗組 | |
-| 樣本數 | |
-| 重複次數 | |
-| 測量時間與頻率 | |
+For each experiment, maintain these 18 fields:
+
+| # | 欄位 |
+|---:|---|
+| 1 | 研究目的 |
+| 2 | 實驗編號／名稱 |
+| 3 | 核心問題 |
+| 4 | 科學機制 |
+| 5 | 操縱變因 |
+| 6 | 應變變因 |
+| 7 | 控制變因 |
+| 8 | 對照組／基準線 |
+| 9 | 實驗組 |
+| 10 | 樣本數／重複次數 |
+| 11 | 材料與設備 |
+| 12 | 校正／前導試驗 |
+| 13 | 操作步驟 |
+| 14 | 原始資料欄位與單位 |
+| 15 | 分析方法／圖表 |
+| 16 | 無效資料、停止與重做規則 |
+| 17 | 與既有研究差異／研究缺口 |
+| 18 | 成功判定與下一步 |
 
 ### 步驟規則
 
@@ -152,6 +192,7 @@ Number experiments sequentially across the report.
 - Include calibration, blank, baseline, or pilot tests when needed.
 - Avoid changing multiple major variables at once unless the design explicitly studies interactions.
 - Preserve raw data and original photos.
+- Do not repeat saturated variables merely to increase experiment count.
 
 ## 柒、資料處理與分析
 
@@ -167,6 +208,14 @@ Include:
 - criteria that support, weaken, or falsify the prediction;
 - alternative explanations.
 
+For optimization or engineering projects also include:
+
+- baseline performance;
+- objective metrics;
+- trade-offs between metrics;
+- robustness/stability across conditions;
+- external validation.
+
 Use methods students can explain. Advanced statistics are optional, not decorative requirements.
 
 ## 捌、原型設計或真實情境驗證
@@ -181,7 +230,7 @@ Possible structures:
 - model training data → unseen validation data;
 - low-cost instrument → reference instrument comparison.
 
-State success criteria before testing.
+State success criteria before testing. A prototype must be evaluated against a baseline and not only described.
 
 ## 玖、材料與設備取得、製作及校正
 
@@ -212,7 +261,8 @@ Describe only the pre-defined decision rules:
 - plausible alternative patterns and their possible explanations;
 - confounding factors;
 - limitations;
-- follow-up experiment.
+- follow-up experiment;
+- what result would show that the claimed innovation does **not** improve on the baseline.
 
 Do not write a Discussion or Conclusion section. Do not fabricate numerical results.
 
@@ -227,11 +277,13 @@ Do not write a Discussion or Conclusion section. Do not fabricate numerical resu
 
 Include:
 
-- literature and design;
+- literature and overlap search;
+- design;
 - material preparation;
 - pilot test;
 - formal trials;
 - redesign or replication;
+- external validation;
 - data analysis;
 - report and presentation.
 
@@ -253,13 +305,26 @@ Explain how the project demonstrates:
 - fair controls;
 - student ownership;
 - iterative improvement;
+- a defensible difference from prior work;
+- robustness or validation;
 - local relevance;
 - honest limitations;
 - clear visual evidence.
 
 Use calibrated language. Do not promise awards.
 
-## 拾伍、參考文獻
+## 拾伍、Stage Gates
+
+Report explicitly:
+
+- **G0 Prior-work & novelty** — Taiwan + international comparison, overlap matrix, O-level, N-level, gap, do-not-repeat list.
+- **G1 Research alignment** — title → question → purposes → experiments → measurements → analysis.
+- **G2 Apparatus & logistics** — apparatus, sourcing, calibration, safety, student ownership.
+- **G3 Pilot readiness** — baseline, pilot, repeatability, invalid-data and stopping rules.
+
+Formal trials start only after G0–G3 pass or conditional items have explicit acceptance criteria.
+
+## 拾陸、參考文獻
 
 Use APA 7 style.
 
@@ -274,7 +339,7 @@ Rules:
 - do not output a bare link list;
 - do not fabricate incomplete bibliographic details.
 
-## 拾陸、下一步行動
+## 拾柒、下一步行動
 
 End with 3–5 ranked, concrete actions.
 
